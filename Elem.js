@@ -23,6 +23,11 @@ class Elem {
   setElem(adat) {
     this.pElem.html(adat);
   }
+
+  setSzin(szin){
+  this.divElem.css("background-color",szin);    
+  }
+  
   kattintasTrigger() {
 //létrehozza a saját eseményünket
     const esemeny=new CustomEvent("elemKattintas", {detail:this})

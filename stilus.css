@@ -51,3 +51,7 @@ form {
     color: blueviolet;
     font-size: 20px;
 }
+
+.szegely{
+    border: 5px solid orange;
+}
